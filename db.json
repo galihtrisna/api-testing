@@ -1,5 +1,4 @@
-{
-"SELECT cast(status as varchar) as status, COUNT(*) AS jumlah FROM outbox GROUP BY status": [
+[
 	{
 		"status" : "undelivered",
 		"jumlah" : 393
@@ -24,4 +23,4 @@
 		"status" : "sent",
 		"jumlah" : 1281
 	}
-]}
+]
