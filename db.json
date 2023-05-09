@@ -1,0 +1,27 @@
+{
+"SELECT cast(status as varchar) as status, COUNT(*) AS jumlah FROM outbox GROUP BY status": [
+	{
+		"status" : "undelivered",
+		"jumlah" : 393
+	},
+	{
+		"status" : "sending",
+		"jumlah" : 1
+	},
+	{
+		"status" : "failed",
+		"jumlah" : 32
+	},
+	{
+		"status" : "delivered",
+		"jumlah" : 2297
+	},
+	{
+		"status" : "waiting",
+		"jumlah" : 1
+	},
+	{
+		"status" : "sent",
+		"jumlah" : 1281
+	}
+]}
